@@ -1,4 +1,5 @@
 const express = require('express');
+const (CosmosClient)=require('@azure/cosmos');
 const app = express();
 const port = process.env.PORT || 3000;
 app.get('/', (req, res) => {
